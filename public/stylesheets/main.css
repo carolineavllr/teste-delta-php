@@ -1,0 +1,194 @@
+/* ==========================================================================
+  Estilos bases ou helpers
+========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  color: #091D3C;
+  font-family: "Barlow", sans-serif;
+  background-color: #323232;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  max-width: 375px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background: #F9F9F9;
+}
+
+.result {
+  padding: 40px;
+  text-align: center;
+}
+.result h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+  Componentes
+========================================================================== */
+#map {
+  width: 100%;
+  height: calc(100vh - 300px);
+}
+
+.info {
+  z-index: 99999;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #FFFFFF;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0px -10px 20px #00000029;
+}
+.info .address {
+  padding: 20px;
+}
+.info .address input {
+  width: 100%;
+  font-size: 15px;
+  padding: 15px 20px;
+  font-weight: 600;
+  border-radius: 40px;
+  color: #091D3C;
+  background-color: #DFDFDF;
+}
+.info .address button {
+  right: 20px;
+  cursor: pointer;
+  position: absolute;
+  padding: 12px 20px;
+  color: #091D3C;
+}
+.info .confirmation {
+  text-align: center;
+  padding: 20px 40px;
+}
+.info .confirmation .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.info .confirmation .text {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #787878;
+}
+.info .confirmation button {
+  width: 100%;
+  display: flex;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  background: #091D3C;
+}
+.info .confirmation button .material-icons {
+  font-size: 18px;
+}
+.info .id {
+  display: flex;
+  padding: 20px;
+  background: #F9F9F9;
+  border-top: 1px solid #DFDFDF;
+}
+.info .id .logo img {
+  width: 45px;
+  margin-right: 20px;
+}
+.info .id .placa {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.info .id .placa span:first-child {
+  font-size: 12px;
+  color: #787878;
+}
+.info .id .placa span:nth-child(2) {
+  font-size: 27px;
+  font-weight: bold;
+  color: #091D3C;
+}
+.info .id .protocolo {
+  display: flex;
+  flex-direction: column;
+}
+.info .id .protocolo span {
+  font-size: 12px;
+}
+.info .id .protocolo span:first-child {
+  color: #787878;
+}
+.info .id .protocolo span:nth-child(2) {
+  padding: 8px;
+  display: block;
+  font-weight: bold;
+  background: #EFEFEF;
+  color: #091D3C;
+}
+
+/*# sourceMappingURL=main.css.map */

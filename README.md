@@ -3,6 +3,12 @@
 
 - - -
 
+### Tecnologias:
+1. Sass
+2. API Mapbox
+3. HTML5
+4. CSS3
+
 ### O que foi realizado:
 - Primeira tela que permite ao usuário cadastrar sua localização e marcar o local desejado.
 - A localização consulta a API Mapbox para pegar as coordenadas.
